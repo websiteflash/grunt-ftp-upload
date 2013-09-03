@@ -1,7 +1,7 @@
 {
   "name": "grunt-ftp-upload",
-  "description": "һ��grunt-ftp-deploy���޸İ汾��֧�ֵ��ļ��ϴ�",
-  "version": "0.1.0",
+  "description": "一个grunt-ftp-deploy的修改插件，支持按文件上传",
+  "version": "0.1.1",
   "homepage": "https://github.com/websiteflash/grunt-ftp-upload",
   "author": {
     "name": "jesse",
@@ -32,6 +32,11 @@
     "grunt-contrib-clean": "~0.4.0",
     "grunt-contrib-nodeunit": "~0.2.0",
     "grunt": "~0.4.1"
+  },
+  "dependencies": {
+    "prompt": "~0.2.11",
+    "jsftp": "0.6.x",
+    "grunt": "0.4.x"
   },
   "peerDependencies": {
     "grunt": "~0.4.1"
