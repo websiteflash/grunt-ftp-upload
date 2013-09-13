@@ -62,7 +62,7 @@ The parameters in our configuration are:
 - **host** - the name or the IP address of the server we are deploying to
 - **port** - the port that the _ftp_ service is running on
 - **authKey** - a key for looking up saved credentials in `.ftppass` (see next section). If no value is defined, the `host` parameter will be used
-- **src** - the source location, the local folder that we are transferring to the server, i will get the first value if this is array; if the first value is a dir, then it will work as the same as `grunt-ftp-deploy`, if this first value is a file, it will use single file upload model
+- **src** - the source location, the local folder that we are transferring to the server, **i will get the first value if this is array; if the first value is a dir, then it will work as the same as `grunt-ftp-deploy`, if this first value is a file, it will use single file upload model**
 - **dest** - the destination location, the folder on the server we are deploying to
 - **exclusions** - an optional parameter allowing us to exclude files and folders by utilizing grunt's support for [minimatch](https://github.com/isaacs/minimatch). The `matchBase` minimatch option is enabled, so `.git*` would match the path `/foo/bar/.gitignore`.
 
